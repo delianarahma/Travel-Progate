@@ -13,7 +13,32 @@ body {
 header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color: rgba(247, 245, 240, 0.9);
+    border-radius: 5px;
+  }
+.logo {
+    width: 124px;
+    margin-top: 2px;
+}
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(197, 21, 21);
+    display: block;
   }
 
 .menu-header ul {
@@ -30,7 +55,7 @@ header {
     padding: 25px;
     display: block;
     font-size: 20px;
-    color: aliceblue;
+    color: rgb(197, 21, 21);
     text-transform: uppercase;
     transition: all 0.5s ease;
     text-decoration: none;
