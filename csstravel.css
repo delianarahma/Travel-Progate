@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+  }
+
+.menu-header ul {
+    color: aliceblue;
+    list-style: none;
+
+}
+
+.menu-header li {
+    float: left;
+}
+
+.menu-header a {
+    padding: 25px;
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.menu-header a:hover {
+    background-color: antiquewhite;
+}
