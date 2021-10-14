@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(247, 245, 240, 0.9);
+    border-radius: 5px;
+  }
+.logo {
+    width: 124px;
+    margin-top: 2px;
+}
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(197, 21, 21);
+    display: block;
+  }
+
+.menu-header ul {
+    color: aliceblue;
+    list-style: none;
+
+}
+
+.menu-header li {
+    float: left;
+}
+
+.menu-header a {
+    padding: 25px;
+    display: block;
+    font-size: 20px;
+    color: rgb(197, 21, 21);
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.menu-header a:hover {
+    background-color: antiquewhite;
+}
+
+.jumbotron {
+  background-image: url(https://i.pinimg.com/originals/4c/39/b3/4c39b3535a6cae243d1a318eb5600a50.jpg);
+  background-size: cover;
+  height: 540px;
+  position: relative;
+}
+.jumbotron p {
+  font-size: 20px;
+  color: white;
+  margin:10px;
+}
+
+.jumbotron button {
+  margin-top: 14px;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+
+}
+
+.jumbotron .display-4 {
+  color: white;
+  margin-top: 150px;
+  font-weight: 200;
+
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+  .top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  margin-bottom: 10px;
+  letter-spacing:5px;
+  }
+  
+  .top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+  margin: 20px 0;
+  }
+  
+  .signup {
+  background-color: #239b76;
+  }
+  
+  .btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  }
+  .info-panel {
+    box-shadow: 0 3px 20px rgba(0,0,0,5);
+    border-radius:  12px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: #ACACAC;
+    margin-top: -5px;
+    font-weight: 200;
+    display: flex;
+    color: black;
+    font-size: 15px;
+    
+}
+
+/* workingspace */
+.workingspace {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.img-fluid {
+    border-radius: 2%;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+
+}
+
+.workingspace p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-weight: 200;
+    margin: 30px 0;
+
+}
+
+/*galeri tulisan*/
+.container.text-center {
+    margin-top: 100px;
+}
+.footer p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
